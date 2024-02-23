@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkgray;
+}
+.fibo{
+    max-width: auto;
+    max-height: auto;
+    background-color: #561C24;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 8px #E8D8C4;
+    font-family: cursive;
+    font-size: small;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+input{
+    margin:25px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 10px ;
+}
+.nota{
+    color: #E8D8C4;
+    font-size: 15px;
+    font-family: monospace;
+}
